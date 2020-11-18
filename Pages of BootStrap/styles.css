@@ -1,0 +1,389 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+    background-image: url(../images/home.jpg);
+    background-size: cover;
+  }
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: none;     /* to Make Background shadow*/
+    border: 3px solid blue;   /* to make border around BOX*/
+  }
+  .box h1{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid blue;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #90ee9c;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid red;
+    padding: 14px 40px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background-color: rgb(0, 255, 200);
+  }
+  
+  /*
+    >>>> login page <<<<
+  */
+  
+  .center {
+    width: 180px;
+    margin-left: 44%;
+    margin-top: 5%;
+    
+  }
+  
+  .login_text{
+    margin-left: 37%;
+    color:black;
+    font-size: 70px;
+    font-family: "Times New Roman";  
+  }
+  
+  /*
+   >>>> contacts page "Social Media" <<<<
+  */ 
+  
+  .contact_ext{               /*Contact_Text = contact_ext*/
+    margin-left: 35%;
+    color:lightgray;
+    font-size: 50px;
+    padding: 0px 0px 50px 0px;
+  }
+  
+  .social-media {
+      height: auto;
+      overflow: hidden;
+      margin-top: 5%;
+  }
+  
+  .social-media .social {
+      width: 100%;
+      float: center;
+      box-sizing: border-box;
+      padding: 80px 0px 50px 550px;
+  }
+  
+  .social-media .social.face {
+      background: none;
+      border: 3px solid #3b5998;
+      
+  }
+  
+  .social-media .social.twitter {
+      background: none;
+      border: 3px solid #498cbf;
+  }
+  
+  .social-media .social.insta {
+      background: none;
+      border: 3px solid #E1306c
+  }
+  
+  .face_logo {
+    width: 100px;
+    
+  }
+  
+  .insta_logo {
+    width: 100px;
+
+  }
+  
+  .twitter_logo {
+    width: 100px;
+
+  }
+  
+  .social-media .social .icon {
+      width: 50px;
+      height: 50px;
+      background: #fff;
+      text-align: center;
+      line-height: 50px;
+      color: #888;
+      float: left;
+      margin-right: 10px
+  }
+  
+  .social-media .social p {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 20px;
+      color: rgba(222, 199, 135, 0.596);
+  }
+  
+  .social-media .social p span {
+      display: block;
+      margin-bottom: 8px
+  }
+  
+  .social-media .social p span.info2 {
+      font-weight: normal
+  }
+  
+  /*
+    >>>> "services" page <<<<
+  */
+  .contact_text{
+    margin-left: 35%;
+    color:lightgray;
+    font-size: 50px;
+    padding: 0px 0px 50px 50px;
+  }
+  .services_title {
+    margin-left: 10%;
+    color: black;
+    font-size: 40px;
+    font-family: "Times New Roman";
+    text-align: center;
+  }
+  .product_info {
+    font-family: "Times New Roman";
+    text-align: center;
+  }
+  .q_option {
+    margin-left: 38%;
+    color: black;
+    margin-top: inherit;
+    font-family: "Times New Roman";
+    font-size: 30px;
+  }
+ 
+/*
+   >>> Forget Password  <<<
+*/
+  .contact_Text{
+    margin-left: 35%;
+    color: lightblue;
+    font-size: 70px;
+  }
+  .product_info {
+    margin-left: 12%;
+    margin-right: 5%;
+    margin-bottom: 30px;
+    color: lightblue;
+    font-size: 20px;
+  }
+  
+  /* 
+    >>>> Forget Password <<<<
+  */
+  .comment {
+    width: 50%;
+    color: rgb(224, 238, 144);  /*Password >>> Shadow*/
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-color: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
+    margin-left: 25%;
+    border-radius: 5px;
+    background-color: rgb(224, 238, 144);
+    padding: 20px;
+      
+  }
+  
+  .button_send {                 /*Button >>> Search */
+    margin-left: 46%;
+    background-color: rgb(224, 238, 144); 
+    border: none;
+    color: green;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+  
+  .button_cancel {             /*Button >>> Cancel*/
+    margin-left: 46%;
+    background-color:rgb(224, 238, 144); 
+    border: none;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px; 
+  }
+  
+  
+  /*
+   >>>> logo  "Hope" <<<<
+  */
+   .logo {                       /* Logo >>>> inside*/
+      color: yellow; 
+      font-size: 35px;
+      margin-left: 30px;            
+      margin-top: 30px;
+      font-family: "Times New Roman";
+  }
+  .logo_home {                   /* Logo >>>> outside*/       
+      color:black; 
+      font-size: 35px;
+      margin-left: 0;           /* in >>> Left*/
+      margin-top: 20px;
+      font-family: "Times New Roman";
+  }
+ 
+   /*
+    >>>>  about page <<<<
+  */
+  
+  .creative .creative-info .info-dir {
+      font-size: 50px;
+      color: darkseagreen;
+      margin-bottom: 20px;
+      margin-left: 9%;
+      margin-top: 8%;
+  }
+  
+  .creative .creative-info .info-desc {
+      color: rgb(0, 0, 0);
+      margin-bottom: 15px;
+      margin-left: 9%;
+      font-size: 20px;
+      line-height: 1.8;
+  }
+  
+  .creative .creative-info .info-desc a {
+      text-decoration: none
+  }
+  
+  /*
+    >>>> The side navigation menu <<<<
+  */
+  
+  #menu{
+      width: 35px;
+      height: 30px;
+      margin: 30px 0 20px 20px;
+      cursor: pointer;
+  }
+  .bar{
+      height: 5px;
+      width: 100%;
+      background-color: black;
+      display: block;
+      border-radius: 5px;
+      transition: 0.3s ease;
+      
+  }
+                                     /*to make>>>space in bar*/
+  #bar1{
+      transform: translateY(-4px);
+  }                                      
+  #bar3{
+      transform: translateY(4px);
+  }
+
+  .nav li a{
+      color: yellow;               /*>>>Text in Menue*/
+      text-decoration: none;
+  }
+  .nav li a:hover{
+      font-weight: bold;
+  }
+  .nav li{
+      list-style: none;
+      padding: 16px 0;
+  }
+  .nav{
+      padding: 0;
+      margin: 0 20px;
+      transition: 0.3s ease;
+      display: none;
+  }
+  
+  .menu-bg, #menu-bar{
+      top: 10px;
+      right: 0;                     /*to make menu_bg>>> in Right*/
+      position: absolute;
+  }
+  .menu-bg{
+      z-index: 1;
+      width: 0;
+      height: 0;
+      margin: 30px 0 20px 20px;
+      background-color: none ;         /*to make menu-bg>>>shadow*/
+      border-radius: 50%;
+      transition: 0.3s ease;     
+  }
+  #menu-bar{
+      z-index: 2;	
+  }
+  .change-bg{
+      width: 550px;
+      height: 540px;
+      transform: translate(50%,-40%);     /*Circuit around >>> Menue*/
+      border: 1px solid blue;
+  }
+  .change .bar{
+      background-color: black;   /*to make change_bar "X">>>black*/
+  }
+  .change #bar1{
+      transform: translateY(4px) rotateZ(-45deg);
+  }
+  .change #bar3{
+      transform: translateY(-6px) rotate(45deg);
+  }
+  .change #bar2{
+      opacity: 0;
+  }
+  .change{
+      display: block;
+  }
+  
+  /*
+   >>>> copyright <<<<
+  */
+  
+  .footer {
+      text-align: center;
+      padding: 10px 0px 0px 0px;
+      position: absolute;
+      bottom: 10px;
+      width: 100%;
+  }
+  
+  .footer p {
+      color: #000000
+  }
+  
